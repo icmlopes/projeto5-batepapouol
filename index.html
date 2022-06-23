@@ -16,18 +16,15 @@
 </head>
 
 <body>
-    <!--     <div class="fundo">
+<!--         <div class="fundo">
         <img src="./img/logo 2.png" class="img-capa">
     </div>
     <div class="fundo2">
         <div class="identificar">Digite seu nome</div>
     </div>
     <div class="fundo3">
-        <button>Entrar</button>
+        <button class="button-entrar">Entrar</button>
     </div> -->
-
-
-
 
     <div class="topo">
         <div class="container-topo">
@@ -43,15 +40,15 @@
             <div class="horario"> (09:21:45)</div>
             <div class="texto">João entra na sala</div>
         </div>
+        <ul></ul>
     </div>
 
     <div class="barra-final">
         <div class="container-barra">
-            <div>
-                <p class="digitando">Escreva aqui...</p>
-            </div>
-            <ion-icon class="ion-final" name="paper-plane-outline"></ion-icon>
-
+            <input type="text" placeholder="Escreva aqui...">
+            <button onclick="enviarMensagem()">
+                <ion-icon name="paper-plane-outline" class="ion-final"></ion-icon>
+            </button>
         </div>
     </div>
 
