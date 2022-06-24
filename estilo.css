@@ -92,6 +92,7 @@ input {
     border: none;
     width: 90%;
     height: 30px;
+    border-radius: 8px;
 }
 
 input::placeholder {
@@ -100,7 +101,6 @@ input::placeholder {
     font-size: 18px;
     font-style: italic;
     color: #000000;
-    border: none;
 }
 
 ion-icon {
@@ -113,7 +113,12 @@ ion-icon {
 
 button {
     border: none;
-    background-color: #ffffff;
+    background-color: #ffffff;   
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
 }
 
 .espacamento {
@@ -152,7 +157,7 @@ button {
     background-color: #cdcdcd;
 }
 
-.conversar {
+.cv-todos {
     background-color: #ffffff;
 }
 
