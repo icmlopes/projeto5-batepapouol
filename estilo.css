@@ -1,63 +1,3 @@
-/* Página inicial pra entrar no chat */
-/* .img-capa {
-    height: 92px;
-    align-items: center;
-    justify-content: center;
-    font-size: 100px;
-} */
-
-/* .fundo {
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 30px;
-} */
-
-/* .fundo2 {
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-} */
-
-/* .fundo3 {
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-} */
-
-/* .identificar {
-    height: 54px;
-    width: 261px;
-    border: 1px solid #d7d7d7;
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-    color: #aeaeae;
-    font-size: 18px;
-    font-family: roboto;
-    font-weight: 400;
-} */
-
-/* .button-entrar {
-    height: 45px;
-    width: 109px;
-    background-color: #e7e7e7;
-    border-radius: 9px;
-    color: #696969;
-    border: none;
-    font-family: roboto;
-    font-weight: 400;
-    font-size: 18px;
-    cursor: pointer;
-
-} */
-
-/* Fim configuração Página inicial pra entrar no chat */
-
 body {
     font-family: 'Roboto', sans-serif;
     /* background-color: #ffffff; */
@@ -93,6 +33,7 @@ input {
     width: 90%;
     height: 30px;
     border-radius: 8px;
+    outline: none;
 }
 
 input::placeholder {
@@ -113,10 +54,10 @@ ion-icon {
 
 button {
     border: none;
-    background-color: #ffffff;   
+    background-color: #ffffff;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     transform: scale(0.9);
 }
